@@ -12,13 +12,15 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "Vontier"
 
     workspaces {
       name = "gh-actions-demo"
     }
   }
 }
+
+//Comment
 
 provider "aws" {
   region = "us-west-2"
